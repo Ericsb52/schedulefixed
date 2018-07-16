@@ -1,6 +1,6 @@
 .schedule{
     display: grid;
 
-    grid-template-rows: 100px rep(auto-fit, 1fr);
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr [p-s] 76px [p-e];
     grid-row-gap: 22px; 
 }
