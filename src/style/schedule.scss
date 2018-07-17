@@ -5,12 +5,14 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-rows: 100px repeat(auto-fill, 75px) [progress-s] 76px [progress-e];
+    grid-template-rows: 1fr 100px repeat(5, 80px) [progress-s] 1fr [progress-e];
     grid-row-gap: 22px;
     align-items: center;
     justify-items: center;
+    align-content: center;;
 
     &__title{
+      grid-row: 2/3;
         color: white;
         font-family: $font-aleg;
         font-size: 20px;

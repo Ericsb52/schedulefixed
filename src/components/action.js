@@ -30,12 +30,6 @@ handleAction = function(){
                 className={`${this.props.className} action`}>
 
             </a>
-
-        // </button>
-            // <button onClick={() => this.props.onClick()} className={`${this.props.className} action`}>
-            //     { Icon('fas fa-plus-circle') }
-            //     {/* fas fa-times-circle */}
-            // </button>
         )
     }
 }
