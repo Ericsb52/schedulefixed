@@ -9,10 +9,14 @@
     grid-row-gap: 22px;
     align-items: center;
     justify-items: center;
-    align-content: center;;
+
+    align-content: start;
+
+    padding-top: 237px;
 
     &__title{
-      grid-row: 2/3;
+        position: absolute;
+        top:154px;
         color: white;
         font-family: $font-aleg;
         font-size: 20px;
@@ -20,6 +24,7 @@
         border-left: 2px solid $color-subtle-grey;
         padding: 20px 40px;
         text-align: center;
+        font-weight: 100;
     }
   }
 
